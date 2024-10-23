@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations!</title>
+    <style>
+        body {
+            background-image: url('images/Screenshots.png');
+            background: url('images/confetti.png') no-repeat center;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #ff9800;
+            font-size: 2.5em;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+        }
+        button {
+            background-color: #ff9800;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #e68900;
+        }
+        .confetti {
+            position: relative;
+            height: 200px;
+            background: url('https://source.unsplash.com/1600x900/?confetti') no-repeat center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="confetti"></div>
+        <h1>Congratulations!</h1>
+        <p>You’ve won an amazing prize! Click the button below to claim it.</p>
+        <button onclick="window.location.href='Y.html'">Claim Your Prize</button>
+    </div>
+</body>
+</html>

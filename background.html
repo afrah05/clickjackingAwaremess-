@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations!</title>
+    <style>
+        body {
+            background-image: url('background.png'); /* ضع مسار الصورة هنا */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            color: white;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7); /* خلفية شفافة للمحتوى */
+            border-radius: 10px;
+            padding: 40px;
+            max-width: 600px;
+            margin: 100px auto;
+            text-align: center;
+            color: #fff;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #ffcc00;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        button {
+            background-color: #ffcc00;
+            color: #333;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff9900;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Congratulations!</h1>
+        <p>You’ve won an amazing prize! Click the button below to claim it.</p>
+        <button onclick="window.location.href='awareness.html'">Claim Your Prize</button>
+    </div>
+</body>
+</html>
